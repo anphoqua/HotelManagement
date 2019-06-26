@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QltkActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Spinner
+        android:id="@+id/spCv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""/>
+
+   <!--<LinearLayout-->
+       <!--android:layout_width="400dp"-->
+       <!--android:layout_height="40dp"-->
+       <!--android:layout_marginTop="20dp"-->
+       <!--android:orientation="horizontal">-->
+
+       <!--<TextView-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:text="Chức vụ: "-->
+           <!--android:textSize="19dp"-->
+           <!--android:layout_marginLeft="5dp"/>-->
+       <!--<Spinner-->
+           <!--android:id="@+id/spCv"-->
+           <!--android:layout_width="200dp"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:layout_marginLeft="80dp"/>-->
+   <!--</LinearLayout>-->
+    <EditText
+        android:id="@+id/etMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mã tài khoản"
+        android:inputType="textCapCharacters"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+
+    <EditText
+        android:id="@+id/etTk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ten tài khoản"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Họ và tên nhân viên"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+    <EditText
+        android:id="@+id/etCm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Số CMND nhân viên"
+        android:inputType="number"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+    <EditText
+        android:id="@+id/etDc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+    <EditText
+        android:id="@+id/etSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Địa chỉ"
+        android:inputType="textPostalAddress"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+    <EditText
+        android:id="@+id/etEm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="@dimen/account_add_text_margin_bottom"/>
+
+</LinearLayout>

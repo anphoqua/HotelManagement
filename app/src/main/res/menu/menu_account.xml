@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/suathongtin"
+        android:title="Sửa thông tin"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/vohieuhoa"
+        android:title="Vô hiệu hoá"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/xoataikhoan"
+        android:title="Xoá tài khoản"
+        app:showAsAction="collapseActionView"/>
+</menu>

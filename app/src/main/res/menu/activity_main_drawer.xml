@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_qltk"
+            android:icon="@drawable/key"
+            android:title="Quản lí tài " />
+        <item
+            android:id="@+id/nav_dmk"
+            android:icon="@drawable/key"
+            android:title="Đổi mật khẩu" />
+        <item
+            android:id="@+id/nav_tk"
+            android:icon="@drawable/key"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_dbc"
+            android:icon="@drawable/key"
+            android:title="Duyệt báo cáo" />
+
+        <item
+            android:id="@+id/nav_dx"
+            android:icon="@drawable/key"
+            android:title="Đăng xuất" />
+    </group>
+
+
+
+</menu>

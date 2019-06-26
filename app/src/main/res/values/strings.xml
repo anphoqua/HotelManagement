@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="them">Thêm tài khoản</string>
+    <string name="register">register</string>
+    <string name="not_registered">not_registered</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="already_registered">already_registered</string>
+
+    <string name="app_bar_titile_qltk">Quản lí tài khoản</string>
+    <string name="app_bar_titile_dmk">Đổi mật khẩu</string>
+    <string name="app_bar_titile_tk">Thống kê</string>
+    <string name="app_bar_titile_dbc">Duyệt báo cáo</string>
+    <string name="app_bar_titile_stt">Sửa thông tin</string>
+</resources>

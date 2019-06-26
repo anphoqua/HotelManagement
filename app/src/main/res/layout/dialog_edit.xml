@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QltkActivity"
+    android:background="#CC9900">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/nen_radius"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý nhân viên"
+            android:textColor="#FF9966"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <EditText
+            android:id="@+id/etNamenv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tên nhân viên"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="134dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/etManv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mã nhân viên"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="194dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etChucvu"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Chức vụ"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="254dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button_radius"
+            android:text="Sửa"
+            android:layout_marginTop="30dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="334dp"
+            android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
